@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@media screen and  (max-width: 667px) {
+    body {
+        background-color: rgb(230, 230, 230);
+    }
+
+    header  {
+        position: relative;
+        }
+
+        img#logo {
+            width: 100px;
+            margin-right: 80%;
+        }
+
+        #pesq_receitas {
+            display: none;
+        }
+
+        img#menu_itens {
+            width: 30px;
+        }
+
+        .txt_nav {
+            position: absolute;
+            top: 40px;
+            left: 25vw;
+            display: inline-block;
+        }
+
+        #banner_comida {
+            max-width: 450px;
+        }
+    
+    section#main {
+        border-radius: 0px;
+        height: 3200px;
+        margin-bottom: 0px;
+    }
+
+        #video {
+            max-width: 460px;
+            max-height: 215px;
+        }
+
+        div#veja_mais {
+            top: 550px;
+            cursor: pointer;
+        }
+
+        div#veja_mais:hover {
+            transition: 0.1s;
+            top: 555px;
+            padding: 5px;
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.075);
+        }
+
+        div.vid_ex_cima {
+            display: block;
+            width: 400px;
+            height: 370px;
+        }
+
+            #VidCima {
+                margin-left: 50%;
+                transform: translate(-50%);
+            }
+
+            #VidCima2 {
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 400px;
+            }
+
+            #VidCima3 {
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 800px;
+            }
+
+        div#linha {
+            display: none;
+        }
+
+        .vid_ex_baixo {
+            display: block;
+            width: 400px;
+            height: 370px;
+        }
+
+            #sa1 {
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 1700px;
+            }
+
+            #sa2 {
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 2100px;
+            }
+
+            #sa3 {
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 2500px;
+            }
+
+        p.description {
+            text-align: center;
+            position: relative;
+            margin-top: 300px;
+        }
+
+        img.fotos_main {
+            margin-left: 45px;
+            margin-top: 40px;
+            margin-top: -310px;
+            width: 310px;
+            height: 198px;
+        }
+
+        img.fotos_main2 {
+            margin-left: 45px;
+            margin-top: 40px;
+            width: 310px;
+            height: 198px;
+        }
+
+    footer {
+    margin-top: 0px;
+    }
+
+        p#copy {
+            font-size: 8px;
+            margin-left: 0px;
+        }
+}
